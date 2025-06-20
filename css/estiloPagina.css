@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+header {
+  background-color: #6c757d;
+}
+
+img {
+  width: 30%;
+  height: 50%;
+}
+
+.card {
+  border: none;
+}
+
+.tarjeta-con-borde {
+  border: 3px solid #6c757d;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.tarjeta-con-borde:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-color: #b30000;
+  cursor: pointer;
+}
+
+.boton {
+  margin-right: 20px;
+  background-color: #b30000;
+  width: 150px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  outline: none;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.boton_2 {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  outline: none;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+.boton:hover,
+.boton:focus {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  background-color: #8f0000;
+  cursor: pointer;
+  outline: none;
+}
+
+.boton_2:hover,
+.boton_2:focus {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  background-color: #8f0000;
+  cursor: pointer;
+  outline: none;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 10px;
+  width: auto;
+}
+nav{
+    display: flex;
+}
