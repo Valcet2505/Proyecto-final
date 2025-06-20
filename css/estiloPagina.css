@@ -43,6 +43,14 @@ img {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
+.boton:hover,
+.boton:focus {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  background-color: #8f0000;
+  cursor: pointer;
+  outline: none;
+}
+
 .boton_2 {
   background-color: #b30000;
   color: white;
@@ -55,15 +63,6 @@ img {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-
-.boton:hover,
-.boton:focus {
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
-  background-color: #8f0000;
-  cursor: pointer;
-  outline: none;
-}
-
 .boton_2:hover,
 .boton_2:focus {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
@@ -71,6 +70,29 @@ img {
   cursor: pointer;
   outline: none;
 }
+
+.boton_3 {
+  margin-left: 20px;
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  outline: none;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.boton_3:hover,
+.boton_3:focus {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+  background-color: #8f0000;
+  cursor: pointer;
+  outline: none;
+}
+
+
 
 .logo {
   height: 100px;
